@@ -1,0 +1,355 @@
+@media (max-width: 575px)
+{   
+    .menu-button button{
+        position: absolute;
+        top: 30px;
+        padding: 4px 8px;
+        font-size: 16px;
+        background-color: transparent;
+        color: white;
+        border: none;
+    }
+    .logo{
+        margin: auto;
+    }
+    .menu ul.row{
+        position: absolute;
+        width: 100%;
+        background-color: #141414;
+        left: -100%;
+        top: 100%;
+        padding: 12px 0;
+        transition: all 0.5s;
+        flex-direction: column;
+    }
+    .menu ul.toggle-menu{
+        left: 0%;
+    }
+    .menu ul.row li{
+        margin: 10px 0;
+    }
+    header .container .row .menu ul li .drop-down{
+        display: none;
+    }
+    .img-text h2{
+        font-size: 60px;
+    }
+    .img-text p{
+        font-size: 18px;
+    }
+    .info{
+        padding-right: 0px;
+        padding-left: 10px;
+    }
+    .barber-info{
+        padding-top: 200px;
+    }
+    .review .review-content{
+        text-align: center;
+    }
+    .next-icon i{
+        bottom: -100px;
+        right: 35%;
+    }
+    .next-icon i:first-child{
+        bottom: -92px;
+    }
+    .blog-content{
+        text-align: center;
+    }
+    .blog-content img{
+        margin: auto;
+    }
+}
+
+@media (min-width: 576px)
+{   
+    .sm-1{
+        width: 8.3333%;
+    }
+    .sm-2{
+        width: 16.6666%;
+    }
+    .sm-3{
+        width: 25%;
+    }
+    .sm-4{
+        width: 33.3333%;
+    }
+    .sm-5{
+        width: 41.6666%;
+    }
+    .sm-6{
+        width: 50%;
+    }
+    .sm-7{
+        width: 58.3333%;
+    }
+    .sm-8{
+        width: 66.6666%;
+    }
+    .sm-9{
+        width: 75%;
+    }
+    .sm-10{
+        width: 83.3333%;
+    }
+    .sm-11{
+        width: 91.6666%;
+    }
+    .sm-12{
+        width: 100%;
+    }
+    .container{
+        max-width: 540px;
+    }
+    .menu-button button{
+        position: absolute;
+        top: 30px;
+        padding: 4px 8px;
+        font-size: 16px;
+        background-color: transparent;
+        color: white;
+        border: none;
+    }
+    .logo{
+        margin: auto;
+    }
+    .menu ul.row{
+        position: absolute;
+        width: 100%;
+        background-color: #141414;
+        left: -100%;
+        top: 100%;
+        padding: 12px 0;
+        transition: all 0.5s;
+        flex-direction: column;
+    }
+    .menu ul.toggle-menu{
+        left: 0%;
+    }
+    .menu ul.row li{
+        margin: 10px 0;
+    }
+    header .container .row .menu ul li .drop-down{
+        display: none;
+    }
+    .table-content{
+        padding: 50px;
+    }
+    .barber-info{
+        padding-top: 200px;
+    }
+}
+
+@media (min-width: 768px)
+{
+    .md-1{
+        width: 8.3333%;
+    }
+    .md-2{
+        width: 16.6666%;
+    }
+    .md-3{
+        width: 25%;
+    }
+    .md-4{
+        width: 33.3333%;
+    }
+    .md-5{
+        width: 41.6666%;
+    }
+    .md-6{
+        width: 50%;
+    }
+    .md-7{
+        width: 58.3333%;
+    }
+    .md-8{
+        width: 66.6666%;
+    }
+    .md-9{
+        width: 75%;
+    }
+    .md-10{
+        width: 83.3333%;
+    }
+    .md-11{
+        width: 91.6666%;
+    }
+    .md-12{
+        width: 100%;
+    }
+    .container{
+        max-width: 740px;
+    }
+    .menu-button button{
+        position: absolute;
+        top: 30px;
+        padding: 4px 8px;
+        font-size: 16px;
+        background-color: transparent;
+        color: white;
+        border: none;
+    }
+    .logo{
+        margin: auto;
+    }
+    .menu ul.row{
+        position: absolute;
+        width: 100%;
+        background-color: #141414;
+        left: -100%;
+        top: 100%;
+        padding: 12px 0;
+        transition: all 0.5s;
+        flex-direction: column;
+    }
+    .menu ul.toggle-menu{
+        left: 0%;
+    }
+    .details{
+        bottom: -10%;
+    }
+    .barber-info{
+        padding-top: 100px;
+    }
+    .review .review-content p{
+        font-size: 22px;
+    }
+    .overlay-text h2{
+        font-size: 50px;
+    }
+    .overlay-text p{
+        font-size: 18px;
+    }
+    
+}
+@media (min-width: 992px)
+{
+    .lg-1{
+        width: 8.3333%;
+    }
+    .lg-2{
+        width: 16.6666%;
+    }
+    .lg-3{
+        width: 25%;
+    }
+    .lg-4{
+        width: 33.3333%;
+    }
+    .lg-5{
+        width: 41.6666%;
+    }
+    .lg-6{
+        width: 50%;
+    }
+    .lg-7{
+        width: 58.3333%;
+    }
+    .lg-8{
+        width: 66.6666%;
+    }
+    .lg-9{
+        width: 75%;
+    }
+    .lg-10{
+        width: 83.3333%;
+    }
+    .lg-11{
+        width: 91.6666%;
+    }
+    .lg-12{
+        width: 100%;
+    }
+    .container{
+        max-width: 970px;
+    }
+    .menu-button button{
+        display: none;
+    }
+    .menu ul.row{
+        position: static;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        background-color: transparent;
+    }
+    header .row li{
+        margin: 0;
+    }
+    .logo{
+       margin: 0;
+    }
+    header .container .row .menu ul li .drop-down{
+        display: block;
+    }
+    .menu ul.row li{
+        margin: 0;
+    }
+    .table-content{
+        padding: 70px;
+    }
+    .table-img{
+        padding: 50px;
+    }
+    .info{
+        padding: 20px 10px 20px 20px;
+    }
+    .review .icon{
+        visibility: visible;
+    }
+    .blog-content{
+        padding: 60px 70px;
+    }
+}
+
+@media (min-width: 1200px)
+{
+    .xl-1{
+        width: 8.3333%;
+    }
+    .xl-2{
+        width: 16.6666%;
+    }
+    .xl-3{
+        width: 25%;
+    }
+    .xl-4{
+        width: 33.3333%;
+    }
+    .xl-5{
+        width: 41.6666%;
+    }
+    .xl-6{
+        width: 50%;
+    }
+    .xl-7{
+        width: 58.3333%;
+    }
+    .xl-8{
+        width: 66.6666%;
+    }
+    .xl-9{
+        width: 75%;
+    }
+    .xl-10{
+        width: 83.3333%;
+    }
+    .xl-11{
+        width: 91.6666%;
+    }
+    .xl-12{
+        width: 100%;
+    }
+    .container{
+        max-width: 1140px;
+    }
+    .table-img{
+        padding: 70px;
+    }
+    .blog-content{
+        padding: 90px 70px;
+    }
+}
